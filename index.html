@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card card-img">
+        <img class="card-img" src="https://www.traveldailymedia.com/assets/2023/07/shutterstock_1435375889.jpg" alt="">
+        <div class="banner">50% OFF up to 100</div>
+        <div class="banner1">30 min</div>
+        <h1><b>Center Point Restaurant</b></h1>
+        <h2 class="t1"> South Indian, North Indian</h2>
+        <hr class="line">
+        <div class="container">
+             <img src="https://ideacdn.net/idea/lv/40/myassets/brands/45/max-safety.png?revision=1680698802">
+             <div class="text">
+                <p>Follows all Max Safety measures to ensure<br>your food is safe</p>
+             </div>
+        </div> 
+    </div>
+
+    <div class="bg">
+        <img class="bg-img" src="https://www.taksudigital.com/wp-content/uploads/2017/10/bali-bk.jpg" alt="">
+        <div class="content">
+            <h1>Explore the diversity of Bali</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor modi quisquam saepe vita Lorem ipsum dolor sir. incidunt nemo aliquid quo tempora.</p>
+            <button class="btn-white">Explore Now</button>
+        </div>
+    </div>
+
+    <div class="zomato">
+        <h1>zomato</h1>
+        <p>Discover the best food & drinks in <span id="selected-location">Bangalore</span></p>
+        <div class="search-container">
+            <div class="location-select">
+                <img src="https://img.icons8.com/ios-filled/50/marker.png" alt="Location">
+                <select id="location-dropdown" onchange="updateLocation()">
+                    <option value="Lucknow" selected>Lucknow</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <img src="https://img.icons8.com/ios-filled/50/search.png" alt="Search">
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateLocation() {
+            var selectedLocation = document.getElementById("location-dropdown").value;
+            document.getElementById("selected-location").innerText = selectedLocation;
+        }
+    </script>
+
+    <div class="profile-card">
+         <div class="cover"></div>
+         <img class="profile-pic" src="K.jpg" alt="Profile Picture">
+         <div class="info">
+             <h2>Keerthana Anand</h2>
+             <p>Engineering Student</p>
+         </div>
+    </div>
+
+
+</body>
+</html>
