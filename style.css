@@ -1,0 +1,186 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 250px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+    position:relative;
+    display:inline-block;
+}
+.banner{
+    background-color:blue;
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+    color: white;
+    font-size: 24px;
+    padding: 0 10px;
+}
+.banner1{
+    background-color: white;
+    position: absolute;
+    bottom: 290px;
+    right: 40px;
+    font-size: 24px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.container {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+.container img {
+    width: 200px;
+    height: auto; 
+}
+.text {
+    font-size: 21px;
+    color: grey;
+    max-width: 400px;
+}
+.t1{
+    color:gray;
+}
+.bg{
+    width: 700px;
+    margin: 60px auto;
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+    border-radius: 24px;
+}
+.content{
+    position: absolute;
+    top:140px;
+    text-align: center;
+    color: white;
+}
+.btn-white{
+    background-color: #fff;
+    padding: 14px 28px;
+    font-size: 14px;
+    border: none;
+    border-radius:28px;
+}
+.zomato {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            background: url('https://simibest.sg/wp-content/uploads/2023/02/1-37-20230508-114909-1024x597.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+.zomato-header h1 {
+            font-size: 48px;
+            font-weight: bold;
+}
+.zomato-header p {
+            font-size: 18px;
+}
+.search-container {
+    display: flex;
+    background: white;
+    padding:0 8px;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 600px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.location-select {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-right: 1px solid #ccc;
+}
+
+.location-select img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.location-select select {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.search-box img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.profile-card {
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+    margin: 30px auto;
+    position: relative;
+}
+.profile-card .cover {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: url('https://wallpapercave.com/wp/wp2108285.jpg') no-repeat center center/cover;
+}
+.profile-card .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+}
+.profile-card .info {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.profile-card h2 {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.profile-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 15px;
+}
